@@ -50,4 +50,4 @@ Before deploying EduPlanner, it’s important to consider a few key factors to e
 
 # License
 
-This project is licensed under the **Mozilla Public License 2.0**. You are free to use, modify, and distribute the code under the terms of this license. For more details, please refer to the **LICENSE** file in the repository.
+This project is licensed under the **Mozilla Public License 2.0**. You are free to use, modify, and distribute the code under the terms of this license, provided that any modifications to the source code are also made available under the same license. For more details, please refer to the **LICENSE** file in the repository.
