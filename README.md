@@ -102,6 +102,8 @@ Open your web browser and go to [http://localhost:8000](http://localhost:8000)
 
 # How to Contribute
 
+For full details on how to contribute, including guidelines for submitting issues, pull requests, and testing, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
 ### Submitting Issues
 
 Use the [Issue Tracker](https://github.com/afi-dev/eduplanner/issues) to submit bug reports and feature or enhancement requests. Before submitting a new issue, make sure there are no similar open issues.
