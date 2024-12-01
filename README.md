@@ -47,6 +47,52 @@ Before deploying **EduPlanner**, it’s important to consider a few key factors 
 >
 > To function properly, the application requires user-specific **login credentials**. This means that the credentials of a particular student need to be used to access the schedule data. If the class shares a similar schedule, one set of credentials will be sufficient. However, if there are variations in the schedule based on different programs or courses for certain students in the class, you will need to provide the credentials of multiple students. This way, you can retrieve several schedules based on the specific program or course type of each student.
 
+## Install Guide
+
+### Linux
+
+```
+sudo add-apt-repository ppa:afidev/eduplanner
+apt-get install eduplanner
+```
+
+### Microsoft Windows
+
+To install EduPlanner on Windows, download the latest .exe installer from the [official releases page](https://github.com/afi-dev/eduplanner/releases). Double-click the downloaded file and follow the installation steps: accept the license agreement, choose the installation folder, and click Install. Once complete, click Finish and launch EduPlanner from the Start Menu or Desktop.
+
+### MacOS
+
+After installing [Homebrew](https://brew.sh/), run the following commands:
+
+```
+brew install eduplanner
+```
+### Docker
+
+After installing [Docker](https://docs.docker.com/engine/install/), run the following commands:
+
+```
+docker run -d -p 8000:8000 --name eduplanner --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v eduplanner_data:/data eduplanner:latest
+```
+
+Once the container has been launched, you should see a page for installing and configuring EduPlanner. After applying the configuration, you'll need to restart the docker container.
+
+# How to Contribute
+
+### Submitting Issues
+
+Use the [Issue Tracker](https://github.com/afi-dev/eduplanner/issues) to submit bug reports and feature or enhancement requests. Before submitting a new issue, make sure there are no similar open issues.
+
+### Functional Testing
+
+Anyone who manually tests the code and reports bugs or suggestions for enhancements in the [Issue Tracker](https://github.com/afi-dev/eduplanner/issues) is very welcome!
+
+### Submitting Pull Requests
+
+Patches and fixes are accepted in the form of pull requests (PRs). Make sure that the issue the pull request addresses is open in the [Issue Tracker](https://github.com/afi-dev/eduplanner/issues).
+
+Submitting a pull request implies that you agree to license your contribution under the **Mozilla Public License 2.0**.
+
 # License
 
 This project is licensed under the **Mozilla Public License 2.0**. You are free to use, modify, and distribute the code under the terms of this license, provided that any modifications to the source code are also made available under the same license. For more details, please refer to the **LICENSE** file in the repository.
