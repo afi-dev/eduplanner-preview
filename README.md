@@ -51,9 +51,7 @@ EduPlanner is available exclusively to students enrolled in schools belonging to
 >
 > To function properly, the application requires user-specific **login credentials**. This means that the credentials of a particular student need to be used to access the schedule data. If the class shares a similar schedule, one set of credentials will be sufficient. However, if there are variations in the schedule based on different programs or courses for certain students in the class, you will need to provide the credentials of multiple students. This way, you can retrieve several schedules based on the specific program or course type of each student.
 
-## Install Guide
-
-### 🐧 Linux
+## 🐧 Linux
 
 ```bash
 sudo add-apt-repository ppa:afidev/eduplanner
@@ -68,17 +66,13 @@ eduplanner
 
 Open your web browser and go to [http://localhost:8000](http://localhost:8000)
 
----
-
-### 🪟 Microsoft Windows
+## 🪟 Microsoft Windows
 
 To install **EduPlanner** on **Windows**, download the latest .exe installer from the [official releases page](https://github.com/afi-dev/eduplanner/releases). Double-click the downloaded file and follow the installation steps: accept the license agreement, choose the installation folder, and click Install. Once complete, click Finish and launch **EduPlanner** from the Start Menu or Desktop.
 
 Open your web browser and go to [http://localhost:8000](http://localhost:8000)
 
----
-
-### 🍏 MacOS
+## 🍏 MacOS
 
 After installing [Homebrew](https://brew.sh/), run the following commands:
 
@@ -94,9 +88,7 @@ eduplanner
 
 Open your web browser and go to [http://localhost:8000](http://localhost:8000)
 
----
-
-### 🐳 Docker
+## 🐳 Docker
 
 After installing [Docker](https://docs.docker.com/engine/install/), run the following commands:
 
