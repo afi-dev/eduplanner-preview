@@ -47,3 +47,7 @@ Before deploying EduPlanner, it’s important to consider a few key factors to e
 > [!IMPORTANT]
 >
 > To function properly, the application requires user-specific login credentials. This means that the credentials of a particular student need to be used to access the schedule data. If the class shares a similar schedule, one set of credentials will be sufficient. However, if there are variations in the schedule based on different programs or courses for certain students in the class, you will need to provide the credentials of multiple students. This way, you can retrieve several schedules based on the specific program or course type of each student.
+
+# License
+
+This project is licensed under the **Mozilla Public License 2.0**. You are free to use, modify, and distribute the code under the terms of this license. For more details, please refer to the **LICENSE** file in the repository.
