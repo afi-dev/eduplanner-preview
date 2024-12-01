@@ -2,6 +2,7 @@
 
 **EPSI**'s unofficial student-designed schedule that offers a smarter, more intuitive and visually refined alternative to the official schedule system. With features such as automated course reminders, real-time change alerts and an elegant, user-friendly interface, it streamlines time management for EPSI students.
 
+![eduplanner_banner_github](https://github.com/user-attachments/assets/ea3b1802-ea9b-42d3-aa39-e6a4fce3d280)
 
 > [!NOTE]  
 > This project is **unofficial** and in no way affiliated with EPSI. The features and activities offered are not related to [EPSI](https://www.epsi.fr/), and this project is not directly supported by the school. It is an independent initiative, developed by a student, aimed at improving the timetable management experience.
@@ -9,8 +10,6 @@
 
 > [!IMPORTANT]  
 > This project is currently in **active development**. Some features may be in the process of being implemented and **bugs** may be encountered. I am actively working on EduPlanner. Please share your feedback to help me make this application even better.
-
-![eduplanner_banner_github](https://github.com/user-attachments/assets/ea3b1802-ea9b-42d3-aa39-e6a4fce3d280)
 
 # Why EduPlanner ?
 
@@ -40,13 +39,13 @@ The application offers a complete overview of courses scheduled for the coming d
 
 ## Requirements
 
-Before deploying EduPlanner, it’s important to consider a few key factors to ensure the application works as expected.
+Before deploying **EduPlanner**, it’s important to consider a few key factors to ensure the application works as expected.
 
 ### Login credentials for one or more student accounts
 
 > [!IMPORTANT]
 >
-> To function properly, the application requires user-specific login credentials. This means that the credentials of a particular student need to be used to access the schedule data. If the class shares a similar schedule, one set of credentials will be sufficient. However, if there are variations in the schedule based on different programs or courses for certain students in the class, you will need to provide the credentials of multiple students. This way, you can retrieve several schedules based on the specific program or course type of each student.
+> To function properly, the application requires user-specific **login credentials**. This means that the credentials of a particular student need to be used to access the schedule data. If the class shares a similar schedule, one set of credentials will be sufficient. However, if there are variations in the schedule based on different programs or courses for certain students in the class, you will need to provide the credentials of multiple students. This way, you can retrieve several schedules based on the specific program or course type of each student.
 
 # License
 
