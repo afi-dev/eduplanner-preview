@@ -34,12 +34,16 @@ The application offers a complete overview of courses scheduled for the coming d
 
 # How does it work?
 
-EduPlanner is a Next.js application designed to retrieve EPSI's schedule data. Due to the lack of a public API provided by EPSI, the application uses a web scraper (a bot) to fetch upcoming classes directly from the official schedule website. The bot logs in using a student's account credentials, allowing it to access and analyze the schedule data. It then updates an independent database, ensuring that any changes to the courses (such as room changes, cancellations, or time adjustments) are automatically handled and reflected in the application. The web application can be installed as a Progressive Web App (PWA), enabling users to receive notifications about upcoming courses. This allows students to stay up-to-date with any changes and helps them better manage their schedules in real-time.
+**EduPlanner** is a **Next.js** application designed to retrieve **EPSI**'s schedule data. Due to the lack of a public API provided by EPSI, the application uses a web scraper (a bot) to fetch upcoming classes directly from the official schedule website. The bot logs in using a student's account credentials, allowing it to access and analyze the schedule data. It then updates an independent database, ensuring that any changes to the courses (such as room changes, cancellations, or time adjustments) are automatically handled and reflected in the application. The web application can be installed as a Progressive Web App (PWA), enabling users to receive notifications about upcoming courses. This allows students to stay up-to-date with any changes and helps them better manage their schedules in real-time.
 
 # How to Deploy EduPlanner
 
+## Requirements
+
 Before deploying EduPlanner, it’s important to consider a few key factors to ensure the application works as expected.
 
-> [!WARNING]
+### Login credentials for one or more student accounts
+
+> [!IMPORTANT]
 >
-> To function properly, the application requires user-specific login credentials. This means that the credentials of a particular student need to be used to access the schedule data.
+> To function properly, the application requires user-specific login credentials. This means that the credentials of a particular student need to be used to access the schedule data. If the class shares a similar schedule, one set of credentials will be sufficient. However, if there are variations in the schedule based on different programs or courses for certain students in the class, you will need to provide the credentials of multiple students. This way, you can retrieve several schedules based on the specific program or course type of each student.
